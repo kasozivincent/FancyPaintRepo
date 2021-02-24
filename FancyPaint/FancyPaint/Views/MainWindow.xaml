@@ -1,0 +1,162 @@
+﻿<ig:XamRibbonWindow x:Class="FancyPaint.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:igm="http://schemas.infragistics.com/xaml"
+        xmlns:ig="http://infragistics.com/Ribbon"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Name="myWindow" Height="800" Width="1000" >
+
+    <ig:RibbonWindowContentHost Background="LightBlue">
+        <ig:RibbonWindowContentHost.Ribbon>
+            <ig:XamRibbon Theme="IGTheme" FontSize="14" ApplicationMenuMode="Office2010" >
+                <ig:XamRibbon.ApplicationMenu2010>
+                    <ig:ApplicationMenu2010 Caption="File">
+                        <ig:ApplicationMenu2010.Items>
+                            <ig:ApplicationMenu2010Item  KeyTip="N"  Image="..\\Images\new3.png">
+                                <ig:ApplicationMenu2010Item.Header>
+                                    <TextBlock Margin="5,0,0,0"
+                                    Text="New" FontSize="14"/>
+                                </ig:ApplicationMenu2010Item.Header>
+                            </ig:ApplicationMenu2010Item>
+                          
+                            <ig:ApplicationMenu2010Item Click="Open_Click" KeyTip="O"  Image="..\\Images\open.png">
+                                <ig:ApplicationMenu2010Item.Header>
+                                    <TextBlock Margin="5,0,0,0"
+                                    Text="Open" FontSize="14"/>
+                                </ig:ApplicationMenu2010Item.Header>
+                            </ig:ApplicationMenu2010Item>
+
+                            <ig:SeparatorTool/>
+                            
+                            <ig:ApplicationMenu2010Item Click="Save_Click"  KeyTip="S"  Image="..\\Images\save.png">
+                                <ig:ApplicationMenu2010Item.Header>
+                                    <TextBlock Margin="5,0,0,0"
+                                    Text="Save" FontSize="14"/>
+                                </ig:ApplicationMenu2010Item.Header>
+                            </ig:ApplicationMenu2010Item>
+
+                            <ig:ApplicationMenu2010Item  KeyTip="S"  Image="..\\Images\save.png">
+                                <ig:ApplicationMenu2010Item.Header>
+                                    <TextBlock Margin="5,0,0,0"
+                                    Text="Save As" FontSize="14"/>
+                                </ig:ApplicationMenu2010Item.Header>
+                            </ig:ApplicationMenu2010Item>
+                            
+                            <ig:SeparatorTool/>
+
+                            <ig:ApplicationMenu2010Item  KeyTip="X"  Image="..\\Images\Exit.png">
+                                <ig:ApplicationMenu2010Item.Header>
+                                    <TextBlock Margin="5,0,0,0"
+                                    Text="Exit" FontSize="14"/>
+                                </ig:ApplicationMenu2010Item.Header>
+                            </ig:ApplicationMenu2010Item>
+                        </ig:ApplicationMenu2010.Items>
+
+                    </ig:ApplicationMenu2010>
+                    </ig:XamRibbon.ApplicationMenu2010>
+
+
+                    <ig:XamRibbon.Tabs>
+                    <ig:RibbonTabItem Header="Home">
+                        <ig:RibbonGroup Id="Clipboard" Caption="ClipBoard">
+                            <ig:ToolVerticalWrapPanel>
+                                <ig:ButtonTool
+                                    Caption="Paste"
+                                    ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                    LargeImage="..\\Images\pasteicon.png"
+                                    Click="Paste_Click"/>
+                                    <ig:ButtonTool Click="Cut_Click" Id="cutTool" SmallImage="..\\Images\cuticon.png"/>
+                                    <ig:ButtonTool Click="Copy_Click" Id="copyTool" SmallImage="..\\Images\copy.png"/>
+                                
+                            </ig:ToolVerticalWrapPanel>
+                        </ig:RibbonGroup>
+
+                        <ig:RibbonGroup Caption="Tools">
+                            <ig:ButtonTool
+                                Caption="Brush"
+                                ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                LargeImage="..\\Images\betterpencil.png"
+                                Click="Brush_Click"/>
+
+                            <ig:ButtonTool
+                                Caption="Erase"
+                                ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                LargeImage="..\\Images\erasericon.png"
+                                Click="Erase_Click"/>
+
+                            <ig:ButtonTool
+                                Caption="Select"
+                                ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                LargeImage="..\\Images\select.png"
+                                Click="Select_Click"/>
+
+                            <ig:ComboEditorTool Name="combo" IsEditable="False"
+                                                SelectedItemChanged="ComboEditorTool_SelectedItemChanged"
+                                                Value="5"
+                                                HorizontalContentAlignment="Right"
+                                                ItemsSource="{Binding Size}">
+                                
+                            </ig:ComboEditorTool>
+                        </ig:RibbonGroup>
+
+                        <ig:RibbonGroup Caption="Images">
+                            <ig:ButtonTool Caption="Add Image" 
+                                           ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                  LargeImage="..\\Images\addimage.png"/>
+                        </ig:RibbonGroup>
+                        
+                        <ig:RibbonGroup Width="150"  Caption="Colors">
+                            <igm:XamColorPicker x:Name="MyColorPicker"
+                                        DerivedPalettesCount="10"
+                                        Width="100" Height="20" 
+                                        DropDownClosed="MyColorPicker_DropDownClosed"
+                                        SelectedColor="Black">
+                            </igm:XamColorPicker>
+
+
+                        </ig:RibbonGroup>
+                        
+                    </ig:RibbonTabItem>
+                    
+                    <ig:RibbonTabItem Header="Shapes">
+                        <ig:RibbonGroup Caption="Insert">
+                            <ig:ButtonTool
+                                Caption="Line"
+                                ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                LargeImage="..\\Images\Line2.png"
+                                Click="LineTool_Click" />
+                            <ig:ButtonTool
+                                Caption="Rectangle"
+                                ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                LargeImage="..\\Images\rect.png"
+                                Click="RectTool_Click"/>
+                            <ig:ButtonTool
+                                Caption="Eclipse"
+                                ig:RibbonGroup.MaximumSize="ImageAndTextLarge"
+                                LargeImage="..\\Images\ellip.png"
+                                Click="EllipTool_Click"/>
+                        </ig:RibbonGroup>
+                        <ig:RibbonGroup Caption="Transform">
+
+                        </ig:RibbonGroup>
+                    </ig:RibbonTabItem>
+                </ig:XamRibbon.Tabs>
+
+            </ig:XamRibbon>
+        </ig:RibbonWindowContentHost.Ribbon>
+        
+        
+
+        <InkCanvas x:Name="canvas" x:FieldModifier="public" 
+                   Background="White" Margin="30"
+                   Opacity="1" EditingMode="Ink" 
+                   ForceCursor="True" Cursor="Pen" 
+                   >
+            <InkCanvas.DefaultDrawingAttributes>
+                <DrawingAttributes Color="black" Width="5" Height="5"/>
+            </InkCanvas.DefaultDrawingAttributes>
+        </InkCanvas>
+
+    </ig:RibbonWindowContentHost>
+</ig:XamRibbonWindow>

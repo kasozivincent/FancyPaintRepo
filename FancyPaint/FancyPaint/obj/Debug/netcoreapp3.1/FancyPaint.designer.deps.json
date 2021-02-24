@@ -1,0 +1,391 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Infragistics.WPF/20.1.9": {
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/de/Infragistics.WPF.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/Infragistics.WPF.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/Infragistics.WPF.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/ja/Infragistics.WPF.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Infragistics.WPF.DataGrids/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9",
+          "Infragistics.WPF.Editors": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.DataPresenter.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/de/Infragistics.WPF.DataPresenter.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/Infragistics.WPF.DataPresenter.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/Infragistics.WPF.DataPresenter.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/ja/Infragistics.WPF.DataPresenter.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Infragistics.WPF.DockManager/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.DockManager.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/de/Infragistics.WPF.DockManager.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/Infragistics.WPF.DockManager.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/Infragistics.WPF.DockManager.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/ja/Infragistics.WPF.DockManager.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Infragistics.WPF.Editors/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.Editors.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/de/Infragistics.WPF.Editors.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/Infragistics.WPF.Editors.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/Infragistics.WPF.Editors.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/ja/Infragistics.WPF.Editors.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Infragistics.WPF.OutlookBar/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.OutlookBar.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/de/Infragistics.WPF.OutlookBar.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/Infragistics.WPF.OutlookBar.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/Infragistics.WPF.OutlookBar.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/ja/Infragistics.WPF.OutlookBar.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Infragistics.WPF.Ribbon/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9",
+          "Infragistics.WPF.Editors": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.Ribbon.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/de/Infragistics.WPF.Ribbon.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/Infragistics.WPF.Ribbon.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/Infragistics.WPF.Ribbon.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/ja/Infragistics.WPF.Ribbon.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Infragistics.WPF.Themes.ForestGreen/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9",
+          "Infragistics.WPF.DataGrids": "20.1.9",
+          "Infragistics.WPF.DockManager": "20.1.9",
+          "Infragistics.WPF.Editors": "20.1.9",
+          "Infragistics.WPF.OutlookBar": "20.1.9",
+          "Infragistics.WPF.Ribbon": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.Themes.ForestGreen.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        }
+      },
+      "Infragistics.WPF.Themes.IG/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.Themes.IG.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        }
+      },
+      "Infragistics.WPF.Themes.Metro/20.1.9": {
+        "dependencies": {
+          "Infragistics.WPF": "20.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Infragistics.WPF.Themes.Metro.dll": {
+            "assemblyVersion": "20.1.20201.9",
+            "fileVersion": "20.1.20201.9"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.19.35512"
+          }
+        }
+      },
+      "Prism.Core/8.0.0.1909": {
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {
+            "assemblyVersion": "8.0.0.1909",
+            "fileVersion": "8.0.0.1909"
+          }
+        }
+      },
+      "Prism.Unity/8.0.0.1909": {
+        "dependencies": {
+          "Prism.Wpf": "8.0.0.1909",
+          "Unity.Container": "5.11.8"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prism.Unity.Wpf.dll": {
+            "assemblyVersion": "8.0.0.1909",
+            "fileVersion": "8.0.0.1909"
+          }
+        }
+      },
+      "Prism.Wpf/8.0.0.1909": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19",
+          "Prism.Core": "8.0.0.1909"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prism.Wpf.dll": {
+            "assemblyVersion": "8.0.0.1909",
+            "fileVersion": "8.0.0.1909"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {},
+      "Unity.Abstractions/5.11.6": {
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Unity.Abstractions.dll": {
+            "assemblyVersion": "5.11.6.0",
+            "fileVersion": "5.11.6.0"
+          }
+        }
+      },
+      "Unity.Container/5.11.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Unity.Container.dll": {
+            "assemblyVersion": "5.11.8.0",
+            "fileVersion": "5.11.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infragistics.WPF/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5JAfeVyVcAV2RIqCyfzQO2heoLTkXbevLUtcrvp4in9DZjWbKCSEeZ4++dS9ohDxfL+CzHV9j9/ZFcDnqpDNSQ==",
+      "path": "infragistics.wpf/20.1.9",
+      "hashPath": "infragistics.wpf.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.DataGrids/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lltIw6i8V36sDw00vLvManvPCv/x7HNItFFw38R95mD4Ll2+pBHMtWU27fdGXZBL4PYLIO4dNbuJZkyiSwrG+w==",
+      "path": "infragistics.wpf.datagrids/20.1.9",
+      "hashPath": "infragistics.wpf.datagrids.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.DockManager/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lz/MG5NMhrxR1sJmIbvVf2B0L3McpEZOD3rAAZWdzBUu/p/To6uH3t7vPc0oXNm6PDfUI4T9YeZxcjvtfWY4cg==",
+      "path": "infragistics.wpf.dockmanager/20.1.9",
+      "hashPath": "infragistics.wpf.dockmanager.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.Editors/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QGJeX/qDsxFyxVxdTtSXCaA16KDJpWnd4JQUISh6Udi2vJx8j3mGasDal2/dOxgNIKVJ5g3Bt+Jw77uI6nbiVw==",
+      "path": "infragistics.wpf.editors/20.1.9",
+      "hashPath": "infragistics.wpf.editors.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.OutlookBar/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LQbs7mae+kVnTxAr46QPty3kAjSiNiKR+k8JlqAYBt8JQsfM6DToW+WlcNLcAhHOFUEoAmND5fDaRNM113JXTQ==",
+      "path": "infragistics.wpf.outlookbar/20.1.9",
+      "hashPath": "infragistics.wpf.outlookbar.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.Ribbon/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pwUeyLxP4tTrFSiPX8P929L0V6/cFHaxFar6lO02Zh2RAadZieX/6NyJ7KtWrj6UhikVHb9ifm4EPU54PNFzLg==",
+      "path": "infragistics.wpf.ribbon/20.1.9",
+      "hashPath": "infragistics.wpf.ribbon.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.Themes.ForestGreen/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kWXavrtovTH6mgFv7KKGTmtRR053TM3Mh3LM8DDtyXvdZnuoHR5zZrTBTgF3Rti7LMnwm/N9XsSVYNk4A1Jq3g==",
+      "path": "infragistics.wpf.themes.forestgreen/20.1.9",
+      "hashPath": "infragistics.wpf.themes.forestgreen.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.Themes.IG/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F+nWpfVuVLCPbuzLUsBnl8fmDzo2Q7Vnu4yqdgydFyMXPf2euwJylxVlHznI/a2+6BhWppOvvEFO42cQuc8nBA==",
+      "path": "infragistics.wpf.themes.ig/20.1.9",
+      "hashPath": "infragistics.wpf.themes.ig.20.1.9.nupkg.sha512"
+    },
+    "Infragistics.WPF.Themes.Metro/20.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L9VikA9IVbh/G3yj52JHUQYeiwJTWpjilzOlp7yfmK04eT1ssugsIuXQQxpT+yQwe+Te9RdFfDpASJeIwK/qQw==",
+      "path": "infragistics.wpf.themes.metro/20.1.9",
+      "hashPath": "infragistics.wpf.themes.metro.20.1.9.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.19",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512"
+    },
+    "Prism.Core/8.0.0.1909": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ri+iSFvJiSKYdui7qtxi3uH9NImSZ8Jl/nOosxScSJseFwAc8Lz63JLXoqSAQglcX13DzZcAMzpKNuA9rCFiJg==",
+      "path": "prism.core/8.0.0.1909",
+      "hashPath": "prism.core.8.0.0.1909.nupkg.sha512"
+    },
+    "Prism.Unity/8.0.0.1909": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5WO7gvzQUkqxhJi0Ff+aCv3SSn0H4Eigk/yn4HPnNrQFoHzQJ5L1dtvyBcBP3zxrH/C3XXCfbl/4gikMVd/0MA==",
+      "path": "prism.unity/8.0.0.1909",
+      "hashPath": "prism.unity.8.0.0.1909.nupkg.sha512"
+    },
+    "Prism.Wpf/8.0.0.1909": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RAIMvKo/CMcyHqFKXuHk4sU3HpdZgzf3xh885VJQ3HzgY5g4NtRdZalvQr87tmJ8ptMY/e5PSZhiJ9RTcuXPpQ==",
+      "path": "prism.wpf/8.0.0.1909",
+      "hashPath": "prism.wpf.8.0.0.1909.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "Unity.Abstractions/5.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G2nhnzlvizcNYrEDnGsC6aCTT+8FmVbd0PLoItJlJBHHqeX5cYi9neIE2odbkVWGFXZJwbNfwkVHPqHVEIULIg==",
+      "path": "unity.abstractions/5.11.6",
+      "hashPath": "unity.abstractions.5.11.6.nupkg.sha512"
+    },
+    "Unity.Container/5.11.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZeix/165OP+EN7oN5UaVHIEi4Aya3jhBUo3TVReWDcyp8iYBExT19Drp5Q5rf56Hpcf+tN86tZW0B378NhwZQ==",
+      "path": "unity.container/5.11.8",
+      "hashPath": "unity.container.5.11.8.nupkg.sha512"
+    }
+  }
+}

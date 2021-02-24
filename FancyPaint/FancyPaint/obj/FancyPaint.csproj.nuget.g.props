@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Kasozi\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\Kasozi\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.19</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgInfragistics_WPF Condition=" '$(PkgInfragistics_WPF)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf\20.1.9</PkgInfragistics_WPF>
+    <PkgInfragistics_WPF_Editors Condition=" '$(PkgInfragistics_WPF_Editors)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.editors\20.1.9</PkgInfragistics_WPF_Editors>
+    <PkgInfragistics_WPF_Ribbon Condition=" '$(PkgInfragistics_WPF_Ribbon)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.ribbon\20.1.9</PkgInfragistics_WPF_Ribbon>
+    <PkgInfragistics_WPF_OutlookBar Condition=" '$(PkgInfragistics_WPF_OutlookBar)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.outlookbar\20.1.9</PkgInfragistics_WPF_OutlookBar>
+    <PkgInfragistics_WPF_DockManager Condition=" '$(PkgInfragistics_WPF_DockManager)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.dockmanager\20.1.9</PkgInfragistics_WPF_DockManager>
+    <PkgInfragistics_WPF_DataGrids Condition=" '$(PkgInfragistics_WPF_DataGrids)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.datagrids\20.1.9</PkgInfragistics_WPF_DataGrids>
+    <PkgInfragistics_WPF_Slider Condition=" '$(PkgInfragistics_WPF_Slider)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.slider\20.1.9</PkgInfragistics_WPF_Slider>
+    <PkgInfragistics_WPF_ColorPicker Condition=" '$(PkgInfragistics_WPF_ColorPicker)' == '' ">C:\Users\Kasozi\.nuget\packages\infragistics.wpf.colorpicker\20.1.9</PkgInfragistics_WPF_ColorPicker>
+  </PropertyGroup>
+</Project>

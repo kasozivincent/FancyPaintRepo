@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+	 <UseWindowsForms>true</UseWindowsForms>
+
+	 <AssemblyName>FancyPaint</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Images\addimage.png" />
+    <None Remove="Images\betterpencil.png" />
+    <None Remove="Images\brush.jpg" />
+    <None Remove="Images\canvas.png" />
+    <None Remove="Images\colorsb.png" />
+    <None Remove="Images\conf.png" />
+    <None Remove="Images\copy.png" />
+    <None Remove="Images\cuticon.png" />
+    <None Remove="Images\ellip.png" />
+    <None Remove="Images\erasericon.png" />
+    <None Remove="Images\Exit.png" />
+    <None Remove="Images\Line2.png" />
+    <None Remove="Images\new3.png" />
+    <None Remove="Images\open.png" />
+    <None Remove="Images\p.png" />
+    <None Remove="Images\pasteicon.png" />
+    <None Remove="Images\pcolor.png" />
+    <None Remove="Images\rect.png" />
+    <None Remove="Images\save.png" />
+    <None Remove="Images\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WPF.ColorPicker" Version="20.1.9" />
+    <PackageReference Include="Infragistics.WPF.Ribbon" Version="20.1.9" />
+    <PackageReference Include="Infragistics.WPF.Themes.ForestGreen" Version="20.1.9" />
+    <PackageReference Include="Infragistics.WPF.Themes.IG" Version="20.1.9" />
+    <PackageReference Include="Infragistics.WPF.Themes.Metro" Version="20.1.9" />
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\addimage.png" />
+    <Resource Include="Images\betterpencil.png" />
+    <Resource Include="Images\brush.jpg" />
+    <Resource Include="Images\canvas.png" />
+    <Resource Include="Images\colorsb.png" />
+    <Resource Include="Images\conf.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cuticon.png" />
+    <Resource Include="Images\ellip.png" />
+    <Resource Include="Images\erasericon.png" />
+    <Resource Include="Images\Exit.png" />
+    <Resource Include="Images\Line2.png" />
+    <Resource Include="Images\new3.png" />
+    <Resource Include="Images\open.png" />
+    <Resource Include="Images\p.png" />
+    <Resource Include="Images\pasteicon.png" />
+    <Resource Include="Images\pcolor.png" />
+    <Resource Include="Images\rect.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\select.png" />
+  </ItemGroup>
+</Project>

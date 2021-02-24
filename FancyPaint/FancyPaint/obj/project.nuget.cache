@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "LPKFSykugl2WkcQqxC++e1ijbJPNWZg0K7FomXv5Jke+YPQ7HRTbScqA7qIc1+KD1xVi4CTMMs2CvvuVIgGsVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kasozi\\Desktop\\TpIHM\\FancyPaint\\FancyPaint\\FancyPaint.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf\\20.1.9\\infragistics.wpf.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.colorpicker\\20.1.9\\infragistics.wpf.colorpicker.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.datagrids\\20.1.9\\infragistics.wpf.datagrids.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.dockmanager\\20.1.9\\infragistics.wpf.dockmanager.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.editors\\20.1.9\\infragistics.wpf.editors.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.outlookbar\\20.1.9\\infragistics.wpf.outlookbar.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.ribbon\\20.1.9\\infragistics.wpf.ribbon.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.slider\\20.1.9\\infragistics.wpf.slider.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.themes.forestgreen\\20.1.9\\infragistics.wpf.themes.forestgreen.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.themes.ig\\20.1.9\\infragistics.wpf.themes.ig.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\infragistics.wpf.themes.metro\\20.1.9\\infragistics.wpf.themes.metro.20.1.9.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\prism.unity\\8.0.0.1909\\prism.unity.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\unity.abstractions\\5.11.6\\unity.abstractions.5.11.6.nupkg.sha512",
+    "C:\\Users\\Kasozi\\.nuget\\packages\\unity.container\\5.11.8\\unity.container.5.11.8.nupkg.sha512"
+  ],
+  "logs": []
+}
